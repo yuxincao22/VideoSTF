@@ -1,8 +1,8 @@
-# 🎥 VideoSTF: An Evaluation Benchmark for Stress-Testing Output Repetition in Video Large Language Models
+# 🎥 VideoSTF: Stress-Testing Output Repetition in Video Large Language Models
 
 <!-- Badges --> <p align="center"> <a href="https://arxiv.org/abs/2602.10639"> <img src="https://img.shields.io/badge/Paper-VideoSTF-ff69b4" alt="Paper"> </a> <a href="https://github.com/yuxincao22/VideoSTF_benchmark/blob/main/LICENSE.md"> <img src="https://img.shields.io/badge/License-VideoSTF-green" alt="License"> </a> </p>
 
-VideoSTF is the first benchmark for systematically measuring and stress-testing output repetition in Video Large Language Models (VideoLLMs).
+This is the official repository of the NeurIPS 2026 paper "VideoSTF: Stress-Testing Output Repetition in Video Large Language Models". VideoSTF is the first benchmark for systematically measuring and stress-testing output repetition in Video Large Language Models (VideoLLMs).
 
 VideoSTF evaluates repetition using three complementary n-gram-based metrics (Repetition Rate, Repetition Intensity and Information Entropy) and provides a standardized, extensible testbed that covers diverse videos from public datasets, together with a library of controlled temporal transformations. VideoSTF currently supports three evaluations: Pervasive Testing, Temporal Stress Testing, and Adversarial Exploitation across 10 mainstream VideoLLMs.
 
@@ -85,7 +85,7 @@ Requirement: transformers>=4.55.4
 ~~~bash
 conda create -n llava python=3.10 -y
 conda activate llava
-# TODO: add model specific installs here
+# add model specific installs here
 ~~~
 
 ## 🧪 Testing Suites
@@ -185,10 +185,10 @@ python -m runners.batch_attack \
 If you find this repo useful, please cite our paper:
 
 ~~~bibtex
-@article{cao2026videostf,
+@inproceedings{cao2026videostf,
   title={VideoSTF: Stress-Testing Output Repetition in Video Large Language Models},
   author={Cao, Yuxin and Song, Wei and Xu, Shangzhi and Xue, Jingling and Dong, Jin Song},
-  journal={arXiv preprint arXiv:2602.10639},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
   year={2026}
 }
 ~~~
