@@ -2,7 +2,7 @@
 
 # <img src="images/logo.png" alt="VideoSTF logo" height="36" align="top"> VideoSTF: Stress-Testing Output Repetition in Video Large Language Models
 
-<!-- Badges --> <p align="center"> <a href="https://videostf.github.io/"> <img src="https://img.shields.io/badge/Website-VideoSTF-orange" alt="Website"> </a> <a href="https://arxiv.org/abs/2602.10639"> <img src="https://img.shields.io/badge/Paper-VideoSTF-ff69b4" alt="Paper"> </a> <a href="https://github.com/yuxincao22/VideoSTF"> <img src="https://img.shields.io/badge/Code-GitHub-black?logo=github" alt="Code"> </a> <a href="https://github.com/yuxincao22/VideoSTF_benchmark/blob/main/LICENSE.md"> <img src="https://img.shields.io/badge/License-VideoSTF-green" alt="License"> </a> </p>
+<!-- Badges --> <p align="center"> <a href="https://videostf.github.io/"><img src="https://img.shields.io/badge/Website-VideoSTF-orange" alt="Website"></a> <a href="https://arxiv.org/abs/2602.10639"><img src="https://img.shields.io/badge/Paper-VideoSTF-ff69b4" alt="Paper"></a> <a href="https://github.com/yuxincao22/VideoSTF"><img src="https://img.shields.io/badge/Code-GitHub-black?logo=github" alt="Code"></a> <a href="https://github.com/yuxincao22/VideoSTF_benchmark/blob/main/LICENSE.md"><img src="https://img.shields.io/badge/License-VideoSTF-green" alt="License"></a> </p>
 
 This is the official repository of the NeurIPS 2026 paper "VideoSTF: Stress-Testing Output Repetition in Video Large Language Models". VideoSTF is the first benchmark for systematically measuring and stress-testing output repetition in Video Large Language Models (VideoLLMs).
 
